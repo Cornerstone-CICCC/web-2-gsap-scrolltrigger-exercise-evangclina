@@ -43,7 +43,7 @@ orTl.from(".line-two span", {scale: 10, opacity: 0})
 let darkmodeTl = gsap.timeline({
     scrollTrigger:{
         trigger: ".line-three", 
-        markers: true,
+        // markers: true,
         scrub: true, 
         // start: "top ",
         // end: "bottom",
